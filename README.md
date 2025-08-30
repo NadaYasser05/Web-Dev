@@ -14,7 +14,7 @@ A simple HTML website highlighting our project
 2. Open 'index.html' in you browser
 
 # Structure
-- '2.1 Hands-on Practice/index.html': Main Page
+- 'index.html': Main Page
 - 'css/':Stylesheet Directory
 - 'js/': JavaScript Directory
 - 'images/': Image Assets
