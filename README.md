@@ -11,7 +11,7 @@ A simple HTML website highlighting our project
 
 # Getting Started
 1. Clone the repository
-2. Open 'index.html' in you browser
+2. Open 'index.html' in your browser
 
 # Structure
 - 'index.html': Main Page
