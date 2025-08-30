@@ -19,5 +19,5 @@ A simple HTML website highlighting our project
 - 'js/': JavaScript Directory
 - 'images/': Image Assets
 
-## Contributers
+## Contributors
 -Chris Simmons, Nada Algeddawy
