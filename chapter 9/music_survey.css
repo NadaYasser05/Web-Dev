@@ -1,129 +1,127 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    padding: 20px;
+    /* Classic, browser-default font */
+    font-family: "Times New Roman", Times, serif; 
+    background-color: #ffffff; /* Plain white background */
+    color: #000000; /* Standard black text */
+    margin: 30px;
+    padding: 0;
 }
 
-/* Header Styling */
+/* Centers the entire content block, a common simple layout technique */
+main {
+    width: 650px; 
+    margin: 0 auto; 
+}
+
 header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-h1 {
-    color: #0056b3;
-    border-bottom: 2px solid #0056b3;
-    display: inline-block;
+    text-align: left; /* Default alignment */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
     padding-bottom: 5px;
 }
 
-/* Form Container Styling */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+h1 {
+    color: #000000;
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
-/* Fieldset and Legend Styling (as required by figure 9.16/best practice) */
-fieldset {
-    border: 1px solid #ccc;
+/* Removes modern styling on the form container */
+form {
     padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    /* No shadows, no rounded corners */
+}
+
+/* Fieldset and Legend Styling */
+fieldset {
+    border: 1px solid #000000; /* Standard black border */
+    padding: 15px;
+    margin-bottom: 15px;
+    /* No rounded corners */
 }
 
 legend {
     font-weight: bold;
-    color: #0056b3;
-    padding: 0 10px;
-    font-size: 1.1em;
+    color: #000000;
+    padding: 0 5px;
+    font-size: 1em;
+    /* Uses browser default background behind the text */
 }
 
 /* Input/Label Styling */
 label {
-    display: block; /* Makes the label take its own line for better separation */
-    margin-bottom: 5px;
-    font-weight: 500;
+    display: block; 
+    margin-bottom: 3px;
+    font-weight: normal; /* Less bolding */
 }
 
+p {
+    margin-bottom: 10px;
+}
+
+/* Standard input boxes with no special styling */
 input[type="text"],
 input[type="email"],
 input[type="date"],
 select,
 textarea {
-    width: 98%; /* Full width within the fieldset */
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 95%; /* Adjust width to fit */
+    padding: 2px;
+    margin-bottom: 5px;
+    border: 1px solid #777777; /* Standard gray border */
     box-sizing: border-box;
 }
 
-/* Specific styling for radio buttons and checkboxes */
+/* Styling for radio buttons and checkboxes */
 fieldset.music-types div,
 fieldset.purchase-frequency div {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    padding: 2px 0;
 }
 
 fieldset.music-types label,
 fieldset.purchase-frequency label {
-    display: inline-block; /* Aligns label next to the control */
+    display: inline; /* Aligns label next to the control */
     margin-left: 5px;
     font-weight: normal;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-    width: auto;
-    margin-right: 5px;
-}
-
 /* Select Box Sizing */
-select[size] {
-    width: 50%; /* Adjust width for the select box */
-    min-height: 80px; /* Ensure 3 visible items are shown */
+select[size="3"] {
+    width: 50%; 
+    min-height: 55px; /* Ensures 3 items are visible */
 }
 
 /* Textarea Sizing */
 textarea {
-    /* HTML handles cols="60" and rows="3", this ensures it fits well */
-    width: 98%; 
-    resize: vertical; /* Allow vertical resizing, but not horizontal */
+    width: 95%; 
+    resize: none; /* Disabling resize is common in older, fixed designs */
 }
 
 /* Button Styling */
 .buttons {
-    text-align: right;
-    padding-top: 10px;
+    text-align: left; /* Default alignment */
+    padding-top: 15px;
 }
 
 input[type="submit"],
 input[type="reset"] {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
+    /* Uses default gray button appearance */
+    background-color: #cccccc; 
+    color: #000000;
+    padding: 5px 10px;
+    border: 1px outset #aaaaaa; /* Gives it the classic 3D button look */
     cursor: pointer;
-    font-size: 1em;
-    margin-left: 10px;
-}
-
-input[type="submit"]:hover,
-input[type="reset"]:hover {
-    background-color: #0056b3;
-}
-
-/* Footer Styling (for name and email at the bottom) */
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 15px;
-    border-top: 1px dashed #ccc;
     font-size: 0.9em;
-    color: #666;
+    margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: left;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #000000; /* Simple line divider */
+    font-size: 0.9em;
+    color: #000000;
 }
