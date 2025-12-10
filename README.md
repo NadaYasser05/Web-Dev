@@ -1,8 +1,8 @@
 # Web-Dev
 Repo for web dev wesbites
 
-# My Website
-A simple HTML website highlighting our project
+# AccountaBuddy
+A simple HTML website highlighting our project. AccountaBuddy is a website designed to help students get ahead of their goals and stay on track with mental wellness, time management, productivity, and career plans. Get one step closer to achieving your dreams with simple tracking and real accountability.
 
 # Features
 - Responsive Design
